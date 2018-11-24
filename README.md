@@ -3,4 +3,4 @@
 npm-install.sh：安装包形式安装npm  
 pip-install.sh：安装包形式安装pip  
 iptables_stop.sh：Centos7彻底关闭防火墙  
-
+install_davinci.sh：一键安装Davinci
