@@ -5,7 +5,8 @@
 #Author: LiLe
 #Date: 20181124
 #Contact: 836217653@qq.com
-#Description: Install Mysql
+#Description: 以指定tar.gz包的方式安装Mysql，这里的版本是mysql-5.7.23-linux-glibc2.12-x86_64.tar.gz；如果是自己下载不一样的版本，那么在main方法里注释掉down这一步，并且修改mysql_filename，改为你将安装的安装包名称；这里安装完成后如果使用mysql客户端命令使用不了，那么手动在命令行source /etc/profile一下。
+#Usage： sudo sh install_mysql.sh
 
 down(){
     wget https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.23-linux-glibc2.12-x86_64.tar.gz

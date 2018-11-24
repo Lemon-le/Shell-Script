@@ -5,7 +5,8 @@
 #Author: LiLe
 #Date: 20181124
 #Contact: 836217653@qq.com
-#Description: Install JDK and Tomcat 
+#Description: 安装JDK和TOMCAT，如果只需安装一个，那么在main方法里注释掉另外一个即可，安装包的下载可自行下载，或者使用我的百度网盘里的，下载到和脚本的同一级目录
+
 
 #install some basic tool
 tools_install(){
