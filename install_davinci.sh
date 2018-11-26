@@ -6,6 +6,7 @@
 #Contact: 836217653@qq.com
 #Version: V1.0
 #Description: 一键安装davinci
+#Blog：https://www.cnblogs.com/lemon-le/p/10018676.html
 
 
 #下载对应的安装包
