@@ -6,4 +6,4 @@ iptables_stop.sh：Centos7彻底关闭防火墙
 install_davinci.sh：一键安装Davinci  
 install_jdk_tomcat.sh：安装jdk和tomcat  
 install_mysql.sh：tar.gz包安装mysql  
-install_zabbix_agent.sh   一键安装zabbix agent 3.4.7版本
+install_zabbix_agent.sh：一键安装zabbix agent 3.4.7版本
