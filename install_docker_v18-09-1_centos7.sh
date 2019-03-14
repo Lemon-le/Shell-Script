@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#filename: install_docker_v18-09-1.sh
+#filename: install_docker_v18-09-1_centos7.sh
 #Version: v1.0.0
 #Author: LiLe
 #Date: 20190314
 #Contact: 836217653@qq.com
 #Description: Centos7下安装docker 18.09.1版本
-#Usage： sudo sh install_docker.sh
+#Usage： sudo sh install_docker_v18-09-1_centos7.sh
 
 #卸载原有版本
 yum remove docker \
