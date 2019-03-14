@@ -32,7 +32,8 @@ yum makecache fast
 #安装Docker CE（这是安装最新版本）；如果是生产环境应该固定统一使用一个版本，而不是每次都是安装最新版本
 
 #可以选择想要安装的版本,这里安装最新的
-#yum list docker-ce  --showduplicates | sort -r    
+#yum list docker-ce  --showduplicates | sort -r  
+#yum install docker-ce-18.09.1  
 yum install docker-ce
 
 #启动
