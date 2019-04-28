@@ -23,11 +23,12 @@ sed -i "s/^ServerActive=127.0.0.1/ServerActive=$1/g" /etc/zabbix/zabbix_agentd.c
 
 start_zabbix(){
 
-systemctl status zabbix-agent
+systemctl start zabbix-agent
+systemctl enable zabbix-agent
 
 }
 
-server_address=10.0.0.15
+server_address=10.0.0.1
 
 main(){
 
