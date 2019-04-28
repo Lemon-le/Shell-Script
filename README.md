@@ -9,7 +9,10 @@ install_mysql.sh：tar.gz包安装mysql
 install_zabbix_agent.sh：一键安装zabbix agent 3.4.7版本  
 zabbix_agent_rpm.sh：rpm包的方式安装zabbix agent  
 install_docker_new_version.sh： centos7下以镜像仓库的方式安装最新版本的Docker  
-install_docker_v18-09-1： centos7以镜像仓库的方式安装18.09.1版本的Docker  
-install_docker_compose： centos7下安装docker-compose
+install_docker_v18-09-1.sh： centos7以镜像仓库的方式安装18.09.1版本的Docker  
+install_docker_compose.sh： centos7下安装docker-compose  
+install_gradle.sh：安装gradle  
+zabbix_ubuntu_rpm.sh：ubuntu下安装zabbix  
+
 
 
