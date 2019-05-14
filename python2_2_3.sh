@@ -22,6 +22,7 @@ compile(){
 
 create_link(){
     ln -s /usr/local/python3/bin/python3.7 /usr/bin/python3
+	ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3
     echo "/usr/local/python3/lib" >/etc/ld.so.conf.d/python3.conf
     ldconfig
     python3 --version
