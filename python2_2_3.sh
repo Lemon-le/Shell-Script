@@ -16,12 +16,14 @@ download(){
 compile(){
     yum install -y libffi libffi-devel
     cd Python-3.7.3
-    ./configure --prefix=/usr/local/python3 --with-ssl
+    ./configure --prefix=/usr/local/python3 --with-ssl --enable-shared
     make && make install
 }
 
 create_link(){
     ln -s /usr/local/python3/bin/python3.7 /usr/bin/python3
+    echo "/usr/local/python3/lib" >/etc/ld.so.conf.d/python3.conf
+    ldconfig
     python3 --version
 }
 
