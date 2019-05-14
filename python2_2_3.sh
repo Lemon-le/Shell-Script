@@ -16,7 +16,7 @@ download(){
 compile(){
     yum install -y libffi libffi-devel
     cd Python-3.7.3
-    ./configure --prefix=/usr/local/python3
+    ./configure --prefix=/usr/local/python3 --with-ssl
     make && make install
 }
 
