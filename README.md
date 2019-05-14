@@ -13,6 +13,8 @@ install_docker_v18-09-1.sh： centos7以镜像仓库的方式安装18.09.1版本
 install_docker_compose.sh： centos7下安装docker-compose  
 install_gradle.sh：安装gradle  
 zabbix_ubuntu_rpm.sh：ubuntu下安装zabbix  
+python2_2_3.sh：centos7下安装python3  
+
 
 
 
