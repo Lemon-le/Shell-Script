@@ -21,3 +21,4 @@ do
     find $dir -type d -mtime +$period ! -name "logs" |xargs rm -rf
     find $dir -type f -mtime +$period ! -name "logs" |xargs rm -rf
 done
+
