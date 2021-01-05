@@ -28,7 +28,7 @@ systemctl enable zabbix-agent
 
 }
 
-server_address=10.0.0.1
+server_address=172.29.43.7
 
 main(){
 

@@ -8,7 +8,7 @@
 #Description: Centos7下python2升级成Python3
 
 download(){ 
-    yum install wget zlib* gcc* opensslopenssl-devel	
+    yum install wget zlib* gcc* openssl openssl-devel libffi-devel
     wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tar.xz
     xz -d Python-3.7.3.tar.xz
     tar -xvf Python-3.7.3.tar
